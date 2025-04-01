@@ -131,8 +131,18 @@ html {
     color: black;
     text-align: center;
 }
+.comic__item{
+    overflow: hidden;
+}
+.comic__item:hover img{
+    transform: scale(1.1);
+}
 @media(max-width:900px) {
     .comic__item {
+        width: 100%;
+        height: auto;
+    }
+    .bubble img {
         width: 100%;
     }
 }
@@ -160,3 +170,4 @@ html {
         transform: rotate(180deg);
     }
 }
+
